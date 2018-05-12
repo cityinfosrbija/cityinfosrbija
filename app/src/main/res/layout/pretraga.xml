@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/naziv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:maxLength="20"
+        android:ellipsize="end"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/logoItema" />
+
+    <TextView
+        android:id="@+id/ulica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#efeeee"
+        android:textSize="15dp"
+        android:text="TextView"
+        android:layout_below="@+id/naziv"
+        android:layout_toEndOf="@+id/logoItema" />
+
+    <ImageView
+        android:id="@+id/logoItema"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ulica"
+        android:layout_alignTop="@+id/naziv"
+        android:background="@drawable/button_border"
+        app:srcCompat="@drawable/logo"
+        />
+
+</RelativeLayout>

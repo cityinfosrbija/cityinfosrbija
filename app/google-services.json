@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "390447686998",
+    "firebase_url": "https://cacak-c6660.firebaseio.com",
+    "project_id": "cacak-c6660",
+    "storage_bucket": "cacak-c6660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390447686998:android:da010d665d2ca63a",
+        "android_client_info": {
+          "package_name": "com.mzbcacak.kele.cityinfosrbija"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390447686998-3nm3c6umole2mo3nb1jpfvt6nti539q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1sZ5cFQjpjImLNFnvFShcc8NisHJBr9I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

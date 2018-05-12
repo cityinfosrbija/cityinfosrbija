@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kele.test_1.Hitne_sluzbe"
+    android:background="@drawable/pozadina">
+
+    <fragment
+        android:id="@+id/fragment11"
+        android:name="com.example.kele.test_1.HeaderFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout="@layout/fragment_header" />
+
+    <fragment
+        android:id="@+id/fragment12"
+        android:name="com.example.kele.test_1.FooterFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:layout="@layout/fragment_footer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fragment11"
+        android:orientation="vertical"
+        android:layout_above="@+id/fragment12">
+
+        <Button
+            android:id="@+id/policijaH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Policija     192"
+            android:drawableLeft="@drawable/policijah" />
+
+        <Button
+            android:id="@+id/vatrogasciH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vatrogasci    193"
+            android:drawableLeft="@drawable/vatroh"/>/>
+
+        <Button
+            android:id="@+id/hitnaH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hitna pomoć    194"
+            android:drawableLeft="@drawable/ambulanta"/>/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adapterLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/nazivBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/pozicijaMarkera"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/ulicaBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nazivBL"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/pozicijaMarkera"
+        android:text="TextView"
+        android:textColor="#cfd8dc"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/pozicijaMarkera"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ulicaBL"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#f50505"
+        android:textSize="24dp" />
+
+    <ImageButton
+        android:id="@+id/prikaziDetalje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ulicaBL"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@android:drawable/ic_menu_directions" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Test_1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_online_d">OnlineD</string>
+    <string name="main_grad">Izaberite grad:</string>
+    <string name="o_aplikaciji">O aplikaciji</string>
+    <string name="kontak">Kontak</string>
+    <string name="uputstva">Uputstva</string>
+    <string name="izbrisi_moju_listu">Izbriši moju listu</string>
+    <string name="jezik">default</string>
+    <string-array name="glavi_ikonice">
+        <item>Ustanove</item>
+        <item>Zdravstvo</item>
+        <item>Školstvo</item>
+        <item>Sport</item>
+        <item>Saobraćaj</item>
+        <item>Transport</item>
+        <item>Ishrana</item>
+        <item>Taxi</item>
+        <item>Kalendar</item>
+    </string-array>
+    <string-array name="sledeci_ikonice">
+        <item>Opština</item>
+        <item>Gradske ustanove</item>
+        <item>Javna preduzeća</item>
+        <item>Javne službe</item>
+        <item>Kulturne ustanove</item>
+        <item>Pošte</item>
+        <item>Banke</item>
+        <item>Verske ustanove</item>
+        <item>Bolnice</item>
+        <item>Zdravstveni centar</item>
+        <item>Apoteke</item>
+        <item>Privatne ordinacije</item>
+        <item>Zubari</item>
+        <item>Očne klinike</item>
+        <item>Sportski klubovi</item>
+        <item>Stadioni</item>
+        <item>Tereni</item>
+        <item>Sale</item>
+        <item>Teretane</item>
+        <item>Bazeni</item>
+        <item>Osnovne škole</item>
+        <item>Srednje škole</item>
+        <item>Više škole</item>
+        <item>Fakulteti</item>
+        <item>Muzičke škole</item>
+        <item>Vrtići</item>
+        <item>Predškolske ustanove</item>
+        <item>Škole za decu sa SP</item>
+        <item>Hipermarketi</item>
+        <item>Pijace</item>
+        <item>Restorani</item>
+        <item>Dostava hrane</item>
+        <item>Pekare</item>
+        <item>Pravljenje torti</item>
+        <item>Kafići</item>
+        <item>Parking</item>
+        <item>Benzinske pumpe</item>
+        <item>Tehnički pregledi</item>
+        <item>Auto servisi</item>
+        <item>Saloni automobila</item>
+        <item>Auto placevi</item>
+        <item>Auto otpadi</item>
+        <item>Policija</item>
+        <item>Vatrogasci</item>
+        <item>Hitna pomoć</item>
+        <item>Distribucija</item>
+        <item>Vodovod</item>
+        <item>Bolnica</item>
+        <item>Dežurne apoteke</item>
+        <item>Amss</item>
+        <item>Vozovi</item>
+        <item>Autobus</item>
+        <item>Gradski prevoz</item>
+        <item>Prevoz robe</item>
+    </string-array>
+    <string-array name="grad">
+        <item>Čačak</item>
+        <item>Kragujevac</item>
+        <item>Kraljevo</item>
+        <item>Loznica</item>
+        <item>Lučani</item>
+        <item>Požega</item>
+        <item>Priboj</item>
+        <item>Užice</item>
+        <item>Vrnjačka Banja</item>
+        <item>Zlatibor</item>
+    </string-array>
+    <string-array name="zona">
+        <item>Crvena zona</item>
+        <item>Žuta zona</item>
+        <item>Zelena zona</item>
+        <item>Plava zona</item>
+    </string-array>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mzbcacak.kele.cityinfosrbija">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.weaverprojects.gpstest.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ikonica"
+        android:label="City info Srbija"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaObjekata"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MeniSledeci"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Detalji"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCT4bb6cm6jLXJUYHjkTWLBfp7Uyg1uibM" />
+
+        <activity
+            android:name=".Pozivi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kalendar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Podesavanja"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Banke"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GlavniMeni"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BankeMapaLista"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uputstva"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kontak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zaParking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlatiParking"
+            android:screenOrientation="portrait" />
+        <activity android:name=".NajbliziObjekti"></activity>
+    </application>
+
+</manifest>

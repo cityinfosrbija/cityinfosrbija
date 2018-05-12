@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\871651347af13f060633aafc0c2b9943c76bfa17\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e607ca6e04e85741fa979402b37eb552b811641">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_4902e8ba3bd2738729803ec7aed172ef58fadf59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\4c59d369baf36374ab27b7cca44481d6ee871c30\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bbded8fa779bbe1097a9fbce22de5ccffb20bd60">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_ffcf60cdd257b9bb1f65509cfbb3d956ecf8f7e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\a91f8125efaf47ee5ce947c866aacc5985fc8a23\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_d3a73afbf14b511901ea6cde4675d675f402c9d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\83c9f46acfb49bcc3a043052c25dce68a776f9df\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4acacbab67243d9eb026ea759aefd401d070f3e">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_4a63e1257f6d2f20e1cf3bdbbfa8738dd35d8fbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\d2d60e57518627813c428b6fb6872b539a32aabd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b70c5ad05857b8b3b2458777e1b489a96d82f05">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_a57b329a11f9d03b394fb4a6810aae0da4efc43c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\ddbb1d2a45e2c3b422000231f82ee0f198e2bd68\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e00b71dcf2fbecaf59b0d487d11839522dd7863d">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_b42cb5b4bd4164ad95123373ed541b0f05d0be42.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f0c1d3cb6e26a0ae2bae0bb4c1dab20520ffa56b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\1a124f617bcd73ceab0588e1bc411120131a2ef9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="32054268e6c9fdff0c9c5deafafd0bd105120fb6">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_1905cb104e731490ed18986693950d53ee726614.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\b5289fa4b7fa6facf3e889b3f4895542ce25ce52\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95955cf3055a3384ba1bfc30c6da82b92df74e0a">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_d35f7ef8ed120981734b7e5136bcceb122f4d9ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\0f6667b7b2b9ee5ed320509e5a65c96b50d65d12\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c83d8acfa2967e42e7507803cd5bc34c898f7e8a">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_0df8089ff90bb342f01ac040a5d51ccd4a91769f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df4f825ea25fb715b6b012105d4bd74876798172">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1bb5b931878761405c55986212d9687c292eb60e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\9420f2d345418dfdd51df70d0c8f63aea927c511\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_ae913d2d873674996f651285b6c6b66165e18e18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\264b49f7ebf40bff20553f18f081ea8e9a273106\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="54511008bf7d1aabd871d8d3a26781b3f2bd9617">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_0a24c0183f4ea88bf36fa02d410111e75d9de090.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kele\.android\build-cache\f9b185177420ad29f016b5193f4d47360e7fa995\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
+        <dex dex="C:\Users\Kele\AndroidStudioProjects\Test_1\app\build\intermediates\pre-dexed\debug\classes_8bac3eccf4fcb20cbd9568e91b2e4dc872fe70ea.jar" />
+    </item>
+
+</items>

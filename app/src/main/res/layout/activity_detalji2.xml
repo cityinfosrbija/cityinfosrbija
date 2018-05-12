@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mzbcacak.kele.cityinfosrbija.Detalji"
+    android:background="@drawable/pozadina">
+
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="com.mzbcacak.kele.cityinfosrbija.HeaderFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout="@layout/fragment_header" />
+
+    <fragment
+        android:id="@+id/fragment6"
+        android:name="com.mzbcacak.kele.cityinfosrbija.FooterFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_footer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment5"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/fragment6">
+
+        <TextView
+            android:id="@+id/detaljiAdresa"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginBottom="2dp"
+            android:layout_above="@+id/textView2"
+            android:layout_marginLeft="110dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="16dp"
+            android:text="Adresa:" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="15dp"
+            android:text="Telefon:" />
+
+        <TextView
+            android:id="@+id/textMobilni"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:text="Mobilni:" />
+
+        <TextView
+            android:id="@+id/textMail"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textMobilni"
+            android:layout_below="@+id/textMobilni"
+            android:layout_marginTop="15dp"
+            android:text="Mail:" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textMail"
+            android:layout_below="@+id/textMail"
+            android:layout_marginTop="15dp"
+            android:text="Website:" />
+
+        <TextView
+            android:id="@+id/detaljiTelefon"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignStart="@+id/detaljiAdresa"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/detaljiWeb"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView7"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_centerHorizontal="true"
+            android:layout_alignStart="@+id/detaljiAdresa"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/detaljiMail"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textMail"
+            android:layout_alignBottom="@+id/textMail"
+            android:layout_alignStart="@+id/detaljiMobilni"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/detaljiMobilni"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_alignStart="@+id/detaljiAdresa"
+            android:layout_alignBaseline="@+id/textMobilni"
+            android:layout_alignBottom="@+id/textMobilni"
+            android:layout_centerHorizontal="true" />
+
+        <fragment
+            android:id="@+id/fragment8"
+            android:name="com.mzbcacak.kele.cityinfosrbija.MapFragment"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentStart="true"
+            tools:layout="@layout/fragment_map" />
+
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="180dp"
+            android:weightSum="3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/detaljiookvir"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/poziv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="15dp"
+                app:srcCompat="@drawable/pozivt"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+           />
+
+            <ImageView
+                android:id="@+id/posaljiMail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/emailt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="7dp"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:id="@+id/webOtvori"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/websitet"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

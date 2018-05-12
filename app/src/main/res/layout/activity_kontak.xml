@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina"
+    tools:context="com.mzbcacak.kele.cityinfosrbija.Kontak">
+
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.mzbcacak.kele.cityinfosrbija.HeaderFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout="@layout/fragment_header" />
+
+    <fragment
+        android:id="@+id/fragment9"
+        android:name="com.mzbcacak.kele.cityinfosrbija.FooterFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:layout="@layout/fragment_footer" />
+
+    <View
+        android:id="@+id/linija"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/kontaktT1"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/kontaktT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Facebook"
+        android:textSize="20dp"
+        android:layout_below="@+id/fragment3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/kontaktT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Mail"
+        android:layout_below="@+id/linija"
+        android:layout_alignStart="@+id/kontaktT1" />
+
+    <ImageView
+        android:id="@+id/facebookK"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/facebook"
+        android:layout_below="@+id/fragment3"
+        android:layout_alignEnd="@+id/linija" />
+
+    <ImageView
+        android:id="@+id/mailK"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linija"
+        android:src="@drawable/emailt"
+        android:layout_alignEnd="@+id/linija" />
+</RelativeLayout>

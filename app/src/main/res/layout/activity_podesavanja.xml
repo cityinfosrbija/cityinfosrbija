@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mzbcacak.kele.cityinfosrbija.Podesavanja"
+    android:background="@drawable/pozadina">
+    <fragment
+        android:id="@+id/fragment15"
+        android:name="com.mzbcacak.kele.cityinfosrbija.HeaderFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout="@layout/fragment_header"
+        />
+
+    <fragment
+        android:id="@+id/fragment17"
+        android:name="com.mzbcacak.kele.cityinfosrbija.FooterFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:layout="@layout/fragment_footer"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fragment15"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_above="@+id/fragment17">
+
+        <Button
+            android:id="@+id/oApl"
+            android:background="@drawable/zapodesavanjak"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/o_aplikaciji" />
+
+        <Button
+            android:id="@+id/kontaktPod"
+            android:background="@drawable/zapodesavanjak"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kontak" />
+
+        <Button
+            android:id="@+id/uputstva"
+            android:background="@drawable/zapodesavanjak"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/uputstva" />
+
+        <Button
+            android:id="@+id/izbrisi"
+            android:background="@drawable/zapodesavanjak"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/izbrisi_moju_listu" />
+
+        <Button
+            android:id="@+id/odgovornost"
+            android:background="@drawable/zapodesavanjak"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Odricanje od odgovornosti" />
+
+    </LinearLayout>
+</RelativeLayout>
