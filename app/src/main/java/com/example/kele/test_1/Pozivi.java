@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 public class Pozivi extends AppCompatActivity {
     private Button hitne;
     Intent i;
@@ -16,7 +18,7 @@ public class Pozivi extends AppCompatActivity {
         setContentView(R.layout.activity_pozivi);
 
         i = new Intent(this,Hitne_sluzbe.class);
-        hitne = (Button) findViewById(R.id.hDugme);
+        hitne = (Button) findViewById(R.id.napredDugme);
 
         hitne.setOnClickListener(new View.OnClickListener() {
             @Override

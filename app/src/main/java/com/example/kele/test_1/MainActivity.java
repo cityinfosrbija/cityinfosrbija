@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 public class MainActivity extends AppCompatActivity {
 
     private ImageView dDosli;

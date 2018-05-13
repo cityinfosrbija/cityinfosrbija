@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 import java.util.List;
 
 /**

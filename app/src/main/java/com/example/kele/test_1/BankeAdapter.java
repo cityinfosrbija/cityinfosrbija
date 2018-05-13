@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 import java.util.List;
 
 /**

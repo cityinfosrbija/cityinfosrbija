@@ -13,7 +13,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 import java.util.ArrayList;
+
+import static com.mzbcacak.kele.cityinfosrbija.R.*;
 
 public class PretragaRezultati extends ArrayAdapter<Baza>{
     PretragaRezultati p;
@@ -21,7 +25,7 @@ public class PretragaRezultati extends ArrayAdapter<Baza>{
     private final ArrayList<Baza> podatci;
     private IzaberiGrad iz = new IzaberiGrad();
     public PretragaRezultati(Context context, ArrayList<Baza> podatci) {
-        super(context,R.layout.pretraga, podatci);
+        super(context, layout.pretraga, podatci);
 
         this.context = context;
         this.podatci = podatci;
@@ -30,12 +34,12 @@ public class PretragaRezultati extends ArrayAdapter<Baza>{
     public View getView(final int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View pretraga = inflater.inflate(R.layout.pretraga, parent, false);
+        View pretraga = inflater.inflate(layout.pretraga, parent, false);
 
-        final TextView n = (TextView) pretraga.findViewById(R.id.naziv);
-        final TextView a = (TextView) pretraga.findViewById(R.id.ulica);
-        final ImageView logo = (ImageView) pretraga.findViewById(R.id.logoItema);
-        final ImageView ikonica = (ImageView) pretraga.findViewById(R.id.vrstaItema);
+        final TextView n = (TextView) pretraga.findViewById(id.naziv);
+        final TextView a = (TextView) pretraga.findViewById(id.ulica);
+        final ImageView logo = (ImageView) pretraga.findViewById(id.logoItema);
+        final ImageView ikonica = (ImageView) pretraga.findViewById(id.meniVrstaS);
         n.setText(podatci.get(position).getIme());
         a.setText(podatci.get(position).getAdresa());
         logo.setImageResource(iz.ikonice.get(podatci.get(position).getVrsta()));

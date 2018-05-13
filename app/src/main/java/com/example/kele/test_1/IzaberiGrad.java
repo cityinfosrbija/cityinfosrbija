@@ -2,6 +2,8 @@ package com.example.kele.test_1;
 
 import android.app.Application;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 import java.util.HashMap;
 import java.util.Map;
 

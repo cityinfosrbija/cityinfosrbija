@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 import com.github.sundeepk.compactcalendarview.CompactCalendarView;
 import com.github.sundeepk.compactcalendarview.domain.Event;
+import com.mzbcacak.kele.cityinfosrbija.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

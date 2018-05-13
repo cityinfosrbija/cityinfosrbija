@@ -13,6 +13,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 import java.util.ArrayList;
 
 /**
@@ -28,7 +30,7 @@ public class AdapterBankeLista extends ArrayAdapter<Baza> {
     int pozicijaL = 0;
 
     public AdapterBankeLista (Context context, ArrayList<Baza> podatci){
-        super(context,R.layout.adapter_banke_liste, podatci);
+        super(context, R.layout.adapter_banke_liste, podatci);
 
         this.context = context;
         this.podatci = podatci;

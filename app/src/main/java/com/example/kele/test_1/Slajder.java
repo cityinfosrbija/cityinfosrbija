@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 public class Slajder extends PagerAdapter{
 
     private int[] sSlike={R.drawable.cacak1, R.drawable.cacak2, R.drawable.cacak3, R.drawable.cacak4};

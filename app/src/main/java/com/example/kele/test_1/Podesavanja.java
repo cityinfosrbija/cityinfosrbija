@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.mzbcacak.kele.cityinfosrbija.R;
+
 public class Podesavanja extends AppCompatActivity {
     private Button izbrisi;
     private Button kontaktPod;
