@@ -64,6 +64,102 @@ public class Info extends AppCompatActivity implements Wcallback {
         }else if (grad.equals("Loznica")){
             povrsina.setText("Povrsina: 612 km²");
             stanovnistvo.setText("Stanovnistvo: 79,327");
+        }else if (grad.equals("Arandjelovac")){
+            povrsina.setText("Povrsina: 376 km²");
+            stanovnistvo.setText("Stanovnistvo: 24,797");
+        }else if (grad.equals("Bela Crkva")){
+            povrsina.setText("Povrsina: 353 km²");
+            stanovnistvo.setText("Stanovnistvo: 9,080  ");
+        }else if (grad.equals("Bor")){
+            povrsina.setText("Povrsina: 856  km²");
+            stanovnistvo.setText("Stanovnistvo: 34,160");
+        }else if (grad.equals("Bujanovac")){
+            povrsina.setText("Povrsina: 384 km²");
+            stanovnistvo.setText("Stanovnistvo: 12,011");
+        }else if (grad.equals("Crna Trava")){
+            povrsina.setText("Povrsina: 312 km²");
+            stanovnistvo.setText("Stanovnistvo: 1,663");
+        }else if (grad.equals("Dimitrovgrad")){
+            povrsina.setText("Povrsina: 483 km²");
+            stanovnistvo.setText("Stanovnistvo: 10,118");
+        }else if (grad.equals("Gornji Milanovac")){
+            povrsina.setText("Povrsina: 836 km²");
+            stanovnistvo.setText("Stanovnistvo: 42,730");
+        }else if (grad.equals("Jagodina")){
+            povrsina.setText("Povrsina: 470 km²");
+            stanovnistvo.setText("Stanovnistvo: 36,092");
+        }else if (grad.equals("Kragujevac")){
+            povrsina.setText("Povrsina: 865 km²");
+            stanovnistvo.setText("Stanovnistvo: 179,417");
+        }else if (grad.equals("Krusevac")){
+            povrsina.setText("Povrsina: 854 km²");
+            stanovnistvo.setText("Stanovnistvo: 73,316");
+        }else if (grad.equals("Leskovac")){
+            povrsina.setText("Povrsina: 1,025 km²");
+            stanovnistvo.setText("Stanovnistvo: 60,288");
+        }else if (grad.equals("Lučani")){
+            povrsina.setText("Povrsina: 454 km²");
+            stanovnistvo.setText("Stanovnistvo: 20,897");
+        }else if (grad.equals("Mladenovac")){
+            povrsina.setText("Povrsina: 339 km²");
+            stanovnistvo.setText("Stanovnistvo: 53,904");
+        }else if (grad.equals("Nova Varos")){
+            povrsina.setText("Povrsina: 584 km²");
+            stanovnistvo.setText("Stanovnistvo: 16,638");
+        }else if (grad.equals("Novi Pazar")){
+            povrsina.setText("Povrsina: 742 km²");
+            stanovnistvo.setText("Stanovnistvo: 66,527");
+        }else if (grad.equals("Pancevo")){
+            povrsina.setText("Povrsina: 148 km²");
+            stanovnistvo.setText("Stanovnistvo: 76,203");
+        }else if (grad.equals("Paracin")){
+            povrsina.setText("Povrsina: 542 km²");
+            stanovnistvo.setText("Stanovnistvo: 25,104");
+        }else if (grad.equals("Pirot")){
+            povrsina.setText("Povrsina: 1,232 km²");
+            stanovnistvo.setText("Stanovnistvo: 38,785");
+        }else if (grad.equals("Požega")){
+            povrsina.setText("Povrsina: 426 km²");
+            stanovnistvo.setText("Stanovnistvo: 13,153");
+        }else if (grad.equals("Smederevo")){
+            povrsina.setText("Povrsina: 484  km²");
+            stanovnistvo.setText("Stanovnistvo: 64,175");
+        }else if (grad.equals("Sabac")){
+            povrsina.setText("Povrsina: 795 km²");
+            stanovnistvo.setText("Stanovnistvo: 53,336");
+        }else if (grad.equals("Sombor")){
+            povrsina.setText("Povrsina: 1,178 km²");
+            stanovnistvo.setText("Stanovnistvo: 47,623");
+        }else if (grad.equals("Subotica")){
+            povrsina.setText("Povrsina: 290 km²");
+            stanovnistvo.setText("Stanovnistvo: 97,910");
+        }else if (grad.equals("Topola")){
+            povrsina.setText("Povrsina: 356  km²");
+            stanovnistvo.setText("Stanovnistvo: 4,793");
+        }else if (grad.equals("Trgoviste")){
+            povrsina.setText("Povrsina: 370 km²");
+            stanovnistvo.setText("Stanovnistvo: 5,091");
+        }else if (grad.equals("Užice")){
+            povrsina.setText("Povrsina: 667 km²");
+            stanovnistvo.setText("Stanovnistvo: 52,646");
+        }else if (grad.equals("Vranje")){
+            povrsina.setText("Povrsina: 860 km²");
+            stanovnistvo.setText("Stanovnistvo: 55,052");
+        }else if (grad.equals("Vrnjačka Banja")){
+            povrsina.setText("Povrsina: 239 km²");
+            stanovnistvo.setText("Stanovnistvo: 27,527");
+        }else if (grad.equals("Vrsac")){
+            povrsina.setText("Povrsina: 800 km²");
+            stanovnistvo.setText("Stanovnistvo: 52,026");
+        }else if (grad.equals("Zajecar")){
+            povrsina.setText("Povrsina: 1068 km²");
+            stanovnistvo.setText("Stanovnistvo: 59,461");
+        }else if (grad.equals("Zlatibor")){
+            povrsina.setText("Povrsina: 1000 km²");
+            stanovnistvo.setText("Stanovnistvo: /");
+        }else if (grad.equals("Zrenjanin")){
+            povrsina.setText("Povrsina: 191 km²");
+            stanovnistvo.setText("Stanovnistvo: 76,511");
         }
         vp = (ViewPager) findViewById(R.id.Vslajder);
         sl = new Slajder(this);

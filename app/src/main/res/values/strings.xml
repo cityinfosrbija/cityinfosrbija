@@ -78,17 +78,42 @@
         <item>Prevoz robe</item>
     </string-array>
     <string-array name="grad">
-        <item>Čačak</item>
-        <item>Kragujevac</item>
-        <item>Kraljevo</item>
-        <item>Loznica</item>
-        <item>Lučani</item>
-        <item>Požega</item>
-        <item>Priboj</item>
-        <item>Užice</item>
-        <item>Vrnjačka Banja</item>
-        <item>Zlatibor</item>
-        <item>Arandjelovac</item>
+        <item>	Arandjelovac	</item>
+        <item>	Bela Crkva	</item>
+        <item>	Bor	</item>
+        <item>	Bujanovac	</item>
+        <item>	Čačak	</item>
+        <item>	Crna Trava	</item>
+        <item>	Dimitrovgrad	</item>
+        <item>	Gornji Milanovac	</item>
+        <item>	Jagodina	</item>
+        <item>	Kragujevac	</item>
+        <item>	Kraljevo	</item>
+        <item>	Krusevac	</item>
+        <item>	Leskovac	</item>
+        <item>	Loznica	</item>
+        <item>	Lučani	</item>
+        <item>	Mladenovac	</item>
+        <item>	Nova Varos	</item>
+        <item>	Novi Pazar	</item>
+        <item>	Pancevo	</item>
+        <item>	Paracin	</item>
+        <item>	Pirot	</item>
+        <item>	Požega	</item>
+        <item>	Priboj	</item>
+        <item>	Sabac	</item>
+        <item>	Smederevo	</item>
+        <item>	Sombor	</item>
+        <item>	Subotica	</item>
+        <item>	Topola	</item>
+        <item>	Trgoviste	</item>
+        <item>	Užice	</item>
+        <item>	Vranje	</item>
+        <item>	Vrnjačka Banja	</item>
+        <item>	Vrsac	</item>
+        <item>	Zajecar 	</item>
+        <item>	Zlatibor	</item>
+        <item>	Zrenjanin	</item>
     </string-array>
     <string-array name="zona">
         <item>Crvena zona</item>

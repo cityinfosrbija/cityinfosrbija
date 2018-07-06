@@ -52,6 +52,33 @@ public class HeaderFragment extends Fragment {
                 case "Lučani":grb.setImageResource(R.drawable.grblucani);break;
                 case "Požega":grb.setImageResource(R.drawable.grbpozega);break;
                 case "Užice":grb.setImageResource(R.drawable.grbuzice);break;
+                case "Jagodina":grb.setImageResource(R.drawable.grbjagodina);break;
+                case "Arandjelovac":grb.setImageResource(R.drawable.grbarandjelovac);break;
+                case "Vranje":grb.setImageResource(R.drawable.grbvranje);break;
+                case "Bela Crkva":grb.setImageResource(R.drawable.grbbelacrkva);break;
+                case "Bujanovac":grb.setImageResource(R.drawable.grbbujanovac);break;
+                case "Crna Trava":grb.setImageResource(R.drawable.grbcrnatrava);break;
+                case "Dimitrovgrad":grb.setImageResource(R.drawable.grbdimitrovgrada);break;
+                case "Gornji Milanovac":grb.setImageResource(R.drawable.grbgornjimilanovac);break;
+                case "Leskovac":grb.setImageResource(R.drawable.grbleskovac);break;
+                case "Mladenovac":grb.setImageResource(R.drawable.grbmladenovac);break;
+                case "Pancevo":grb.setImageResource(R.drawable.grbpancevo);break;
+                case "Pirot":grb.setImageResource(R.drawable.grbpirota);break;
+                case "Smederevo":grb.setImageResource(R.drawable.grbsmedereva);break;
+                case "Sombor":grb.setImageResource(R.drawable.grbsombor);break;
+                case "Topola":grb.setImageResource(R.drawable.grbtopola);break;
+                case "Paracin":grb.setImageResource(R.drawable.grbparacin);break;
+                case "Trgoviste":grb.setImageResource(R.drawable.grbtrgoviste);break;
+                case "Zajecar":grb.setImageResource(R.drawable.grbzajecar);break;
+                case "Sabac":grb.setImageResource(R.drawable.grbsabac);break;
+                case "Subotica":grb.setImageResource(R.drawable.grbsubotica);break;
+                case "Zrenjanin":grb.setImageResource(R.drawable.grbzrenjanin);break;
+                case "Krusevac":grb.setImageResource(R.drawable.grbkrusevac);break;
+                case "Nova Varos":grb.setImageResource(R.drawable.grbnovavaros);break;
+                case "Novi Pazar":grb.setImageResource(R.drawable.grbnovipazar);break;
+                case "Vrsac":grb.setImageResource(R.drawable.grbvrsac);break;
+                case "Bor":grb.setImageResource(R.drawable.grbbor);break;
+
                 default:grb.setImageResource(R.drawable.grbcacak);break;
             }
         }

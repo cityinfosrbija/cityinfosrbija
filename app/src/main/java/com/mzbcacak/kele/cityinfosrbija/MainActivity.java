@@ -110,6 +110,32 @@ public class MainActivity extends AppCompatActivity {
                     case "Požega":ig.promenaGrada("POZEGA,","Požega");break;
                     case "Lučani":ig.promenaGrada("LUCANI,","Lučani");break;
                     case "Kragujevac":ig.promenaGrada("KRAGUJEVAC,","Kragujevac");break;
+                    case "Pirot":ig.promenaGrada("PIROT,","Pirot");break;
+                    case "Bela Crkva":ig.promenaGrada("BELA CRKVA,","Bela Crkva");break;
+                    case "Crna Trava":ig.promenaGrada("CRNA TRAVA,","Crna Trava");break;
+                    case "Dimitrovgrad":ig.promenaGrada("DIMITROVGRAD,","Dimitrovgrad");break;
+                    case "Gornji Milanovac":ig.promenaGrada("GORNJIMILANOVAC,","Gornji Milanovac");break;
+                    case "Trgoviste":ig.promenaGrada("TRGOVISTE,","Trgoviste");break;
+                    case "Vranje":ig.promenaGrada("VRANJE,","Vranje");break;
+                    case "Jagodina":ig.promenaGrada("JAGODINA,","Jagodina");break;
+                    case "Arandjelovac":ig.promenaGrada("ARANDJELOVAC,","Arandjelovac");break;
+                    case "Zajecar":ig.promenaGrada("ZAJECAR,","Zajecar");break;
+                    case "Pancevo":ig.promenaGrada("PANCEVO,","Pancevo");break;
+                    case "Topola":ig.promenaGrada("TOPOLA,","Topola");break;
+                    case "Smederevo":ig.promenaGrada("SMEDEREVO,","Smederevo");break;
+                    case "Paracin":ig.promenaGrada("PARACIN,","Paracin");break;
+                    case "Bujanovac":ig.promenaGrada("BUJANOVAC,","Bujanovac");break;
+                    case "Sombor":ig.promenaGrada("SOMBOR,","Sombor");break;
+                    case "Leskovac":ig.promenaGrada("LESKOVAC,","Leskovac");break;
+                    case "Mladenovac":ig.promenaGrada("MLADENOVAC,","Mladenovac");break;
+                    case "Zrenjanin":ig.promenaGrada("ZRENJANIN,","Zrenjanin");break;
+                    case "Vrsac":ig.promenaGrada("VRSAC,","Vrsac");break;
+                    case "Subotica":ig.promenaGrada("SUBOTICA,","Subotica");break;
+                    case "Novi Pazar":ig.promenaGrada("NOVIPAZAR,","Novi Pazar");break;
+                    case "Nova Varos":ig.promenaGrada("NOVAVAROS,","Nova Varos");break;
+                    case "Krusevac":ig.promenaGrada("KRUSEVAC,","Krusevac");break;
+                    case "Bor":ig.promenaGrada("BOR,","Bor");break;
+                    case "Sabac":ig.promenaGrada("SABAC,","Sabac");break;
                     default:ig.promenaGrada("CACAK,","Čačak");break;
                 }
                 //Spiner poslednji izabrani
